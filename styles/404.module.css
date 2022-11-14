@@ -1,0 +1,12 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em; 
+}
+
+.wrapper h1 {
+    color: var(--white); 
+    font-size: 2em;
+}
