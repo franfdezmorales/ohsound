@@ -1,0 +1,15 @@
+[
+    {
+        "title": "Ranking",
+        "href": "ranking"
+    }, 
+    {
+        "title": "Records",
+        "href": "records"
+    },
+    {
+        "title": "Stats",
+        "href": "stats"
+    } 
+    
+]

@@ -1,0 +1,17 @@
+.item {
+    width: 100%;
+    padding: .5em;
+    border: .1em solid var(--accents-2); 
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+.fail {
+    font-size: 1.25em;
+}
+
+.name {
+    font-size: 1.25em;
+    color: var(--white);
+}

@@ -1,0 +1,32 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em; 
+    padding: 2em 0;
+}
+
+.player {
+    width: var(--max-width);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white);
+}
+
+.seconds {
+    width: 20%;
+    font-size: 1.25em;
+    text-align: right;
+}
+
+.seconds:nth-child(1) {
+    text-align: left;
+}
+
+.buttons {
+    width: var(--max-width);
+    display: flex;
+    justify-content: space-around;
+}

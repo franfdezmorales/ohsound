@@ -1,0 +1,43 @@
+.wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5em; 
+    color: var(--white);
+}
+
+.title {
+    font-size: 1.75em;
+    font-weight: bold;
+}
+
+.artists {
+    font-size: 1.25em;
+}
+
+
+.link {
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    gap: .5em; 
+}
+
+.link:hover > .iconText {
+    color: var(--white);
+}
+
+.icon {
+    color: var(--green);
+}
+
+.iconText {
+    color: var(--accents-5);
+    transition: color .5s ease;
+}
+
+.nextSound {
+    margin-top: 2em;
+}

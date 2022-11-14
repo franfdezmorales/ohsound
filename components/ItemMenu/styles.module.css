@@ -1,0 +1,8 @@
+.item {
+    color: var(--accents-5);
+    transition: color .5s ease;
+}
+
+.item:hover {
+    color: var(--white);
+}

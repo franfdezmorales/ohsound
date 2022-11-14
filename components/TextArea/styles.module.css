@@ -1,0 +1,22 @@
+.customTextArea {
+    width: 100%;
+    min-height: 6em;
+    outline: .1em solid var(--accents-2);
+    border: none;
+    border-radius: .25em;
+    background-color: var(--color-black);
+    font-family: var(--font-family);
+    padding: .5em;
+    color: white; 
+    font-size: .9em;
+    transition: all .5s ease;
+    resize: none;
+}
+
+.customTextArea::-webkit-scrollbar {
+    display: none;
+}
+
+.customTextArea:focus {
+    outline: .1em solid var(--white);
+}

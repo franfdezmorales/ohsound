@@ -1,0 +1,14 @@
+.item {
+    width: 100%;
+    background-color: var(--black);
+    padding: .5em;
+    border-radius: .25em;
+    outline: .1em solid var(--accents-2);
+    color: var(--white);
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.item:hover {
+    outline: .1em solid var(--green);
+}

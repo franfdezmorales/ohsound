@@ -1,0 +1,22 @@
+.wrapper {
+    background-color: var(--black);
+    height: 5em;
+    padding: 0 2em;
+    box-shadow: inset 0 -1px var(--accents-2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    color: var(--white);
+    font-size: 2em;
+    letter-spacing: .5em;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em; 
+}

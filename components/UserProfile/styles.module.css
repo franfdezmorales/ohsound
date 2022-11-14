@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    color: var(--accents-5);
+    gap: .5em;
+}
+
+.photo {
+    clip-path: circle(50% at 50% 50%);
+    filter: grayscale(100%);
+    transition: filter .5s ease;
+}
+
+.wrapper:hover > .photo {
+    filter: grayscale(0);
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    color: var(--white);
+}
+
+.email {
+    font-size: .75em;
+}
+
+.logout {
+    margin-left: .5em;
+    font-size: 1.25em;
+    transition: color .5s ease;
+    cursor: pointer;
+}
+
+.logout:hover {
+    color: var(--red);
+}

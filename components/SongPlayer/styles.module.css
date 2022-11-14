@@ -1,0 +1,110 @@
+@keyframes bar1-animation {
+    0% {
+        transform: scaleY(1.0) translateY(0em);
+    }
+    50% {
+        transform: scaleY(1.5) translateY(-0.082em);
+    }
+    100% {
+        transform: scaleY(1.0) translateY(0em);
+    }
+}
+
+@keyframes bar2-animation {
+    0% {
+        transform: scaleY(1.0) translateY(0em);
+    }
+    50% {
+        transform: scaleY(3) translateY(-0.083em);
+    }
+    100% {
+        transform: scaleY(1.0) translateY(0em);
+    }
+}
+
+@keyframes bar3-animation {
+    0% {
+        transform: scaleY(0.5) translateY(0em);
+    }
+    50% {
+        transform: scaleY(0.0) translateY(-0.37em);
+    }
+    100% {
+        transform: scaleY(0.5) translateY(0em);
+    }
+}
+
+
+.player {
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    outline: .1em solid var(--accents-2);
+    color: var(--accents-2);
+    background-color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.playIcon {
+    font-size: 1.5em;
+}
+
+.player:hover {
+    color: var(--white);
+    outline: .1em solid var(--white);
+}
+
+.bars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5em; 
+    overflow-y: scroll;
+}
+
+.bars::-webkit-scrollbar {
+    display: none;
+}
+
+.bar1 {
+    height: 1.5em;
+    width: .25em;
+    border-radius: .25em;
+    background-color: var(--accents-2);
+    animation-name: bar1-animation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.bar2 {
+    height: .5em;
+    width: .25em;
+    border-radius: .25em;
+    background-color: var(--accents-2);
+    animation-name: bar2-animation;
+    animation-duration: 1.5s;
+    animation-delay: .2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.bar3 {
+    height: 2.5em;
+    width: .25em;
+    border-radius: .25em;
+    background-color: var(--accents-2);
+    animation-name: bar3-animation;
+    animation-duration: 1.5s;
+    animation-delay: .3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.player:hover > .bars > * {
+    background-color: var(--white);
+}

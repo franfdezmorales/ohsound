@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1, 
+        "emojiToRender": "😭", 
+        "value": 0, 
+        "selected": false
+    }, 
+    {
+        "id": 2, 
+        "emojiToRender": "😕", 
+        "value": 1, 
+        "selected": true
+    }, 
+    {
+        "id": 3, 
+        "emojiToRender": "😊", 
+        "value": 2, 
+        "selected": false
+    }, 
+    {
+        "id": 4, 
+        "emojiToRender": "🤩", 
+        "value": 3, 
+        "selected": false
+    }
+]

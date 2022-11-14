@@ -1,0 +1,20 @@
+
+.emoji-no-selected {
+    padding: .25em;
+    background-color: var(--accents-1);
+    outline: .05em solid var(--accents-2);
+    border-radius: 50%;
+    transition: transform .5s ease;
+    cursor: pointer;
+}
+
+.emoji-no-selected:hover {
+    transform: scale(1.1);
+}
+
+.emoji-selected {
+    padding: .25em;
+    background-color: var(--accents-1);
+    outline: .05em solid var(--green);
+    border-radius: 50%;
+}

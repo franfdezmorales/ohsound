@@ -1,0 +1,50 @@
+.bar {
+    width: 100%;
+    height: 1em;
+    position: relative;
+    box-shadow: 0 -1px var(--accents-3), 0 1px var(--accents-3);
+}
+
+.barSeparation {
+    position: absolute;
+    height: 1em;
+    width: .05em;
+    background-color: var(--accents-3);
+    z-index: 2;
+}
+
+.barSeparation:nth-child(1) {
+    left: 6.67%;
+}
+
+.barSeparation:nth-child(2) {
+    left: 20%;
+}
+
+.barSeparation:nth-child(3) {
+    left: 33.33%;
+}
+
+.barSeparation:nth-child(4) {
+    left: 66.67%;
+}
+
+.currentMaxTime {
+    height: 100%;
+    width: 100%;
+    transform-origin: left top;
+    background-color: var(--accents-2);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.currentTime {
+    height: 100%;
+    width: 100%;
+    background-color: var(--green);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform-origin: left top;
+}
